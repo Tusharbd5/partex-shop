@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This is My Project Named Partex Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is developed for the assignment of react router. If you want to run this project on your device then you should install npm by commanding npm install [npm-install]
 
 ## Available Scripts
 

@@ -25,3 +25,26 @@
 .display-container img {
     width: 80%;
 }
+
+@media screen and (max-width: 600px) {
+    .display-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .half-width {
+        padding: 10px;
+    }
+
+    .display-container h1 {
+        font-size: 30px;
+    }
+
+    .display-container p {
+        font-size: 14px;
+    }
+
+    .display-container img {
+        width: 70%;
+    }
+}
