@@ -12,7 +12,7 @@ const DisplayReview = props => {
             <div className='details-content'>
                 <p><small>Username: {username}</small></p>
                 <p>User Feedback: {comment}</p>
-                <p>Ratings: {ratings} star</p>
+                <p>Ratings: <span style={{ color: "orange", fontWeight: "700", fontSize: "18px" }}>{ratings}</span> star</p>
             </div>
         </div>
     );

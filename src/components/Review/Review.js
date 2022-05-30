@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
 import DisplayReview from '../DisplayReview/DisplayReview';
 import './Review.css'
 
 const Review = () => {
     const [reviews, setReviews] = useReview();
-    console.log(reviews);
     return (
-        <div>
+        <div style={{ marginBottom: "30px" }}>
             <h1>Total Customer Review: {reviews.length}</h1>
             <div className='review-container'>
                 {
@@ -16,7 +16,9 @@ const Review = () => {
                         review={review}></DisplayReview>)
                 }
             </div>
-            <button>Show All Reviews</button>
+            <Link to="/reviews">
+                <button className='review-btn'>Show All Reviews</button>
+            </Link>
         </div>
     );
 };

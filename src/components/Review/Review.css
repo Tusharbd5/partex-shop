@@ -4,3 +4,25 @@
     grid-gap: 20px;
     padding: 20px;
 }
+
+.review-btn {
+    background-image: linear-gradient(rgb(3, 146, 212), rgb(21, 220, 255));
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .review-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .review-btn {
+        font-size: 12px;
+
+    }
+}
