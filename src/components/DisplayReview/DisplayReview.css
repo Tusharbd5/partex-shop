@@ -1,0 +1,21 @@
+.display-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(211, 211, 211, 0.562);
+    padding: 15px;
+}
+
+.title-content {
+    display: flex;
+}
+
+.display-content img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}

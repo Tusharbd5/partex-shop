@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "comment": "The tables are very good and i like this product very much. Thanks for collecting so much beautiful product.",
+        "ratings": 5,
+        "picture": "https://images.unsplash.com/photo-1542327534-59a1fe8daf73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "ratings": 3,
+        "comment": "The products are ok.",
+        "picture": "https://images.unsplash.com/photo-1614252369475-531eba835eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80"
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "ratings": 4,
+        "comment": "I like the tables very much because this products are beautiful",
+        "picture": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "ratings": 2,
+        "comment": "The tables are very good and i like this product very much. Thanks for collecting so much beautiful product.",
+        "picture": "https://images.unsplash.com/photo-1598106755735-3ebfced1d38b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "ratings": 5,
+        "comment": "I am very happy to recieve this types of product. Specially the tables are very much interactive. I like these very much.",
+        "picture": "https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulis",
+        "username": "Leopoldo_Corkery",
+        "ratings": 4,
+        "comment": "Not bad. I have recieved the good one. Thanks for the beautiful product",
+        "picture": "https://images.unsplash.com/photo-1607149553615-e9d1f694c1ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    }
+]
