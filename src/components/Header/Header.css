@@ -1,20 +1,63 @@
-nav {
+.nav-items {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
 }
 
+nav {
+    text-align: left;
+}
+
+.top {
+    top: 30px;
+}
+
+.no-top {
+    top: -500px;
+}
+
 nav .a {
     text-decoration: none;
-    margin-right: 20px;
     font-size: 20px;
     font-weight: 600;
     color: black;
     border-bottom: 3px solid lightgray;
     border-radius: 1px;
+    margin-left: 50px;
+}
+
+.fa-icon {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.fa-icon:hover {
+    font-size: 40px;
+    cursor: pointer;
+    color: orange;
 }
 
 nav .a:hover {
     color: rgb(12, 170, 233);
+}
+
+@media screen and (max-width: 600px) {
+    .nav-items {
+        display: block;
+        position: absolute;
+        background-color: bisque;
+        width: 100%;
+
+    }
+
+    nav {
+        background-color: bisque;
+    }
+
+    .fa-icon {
+        display: block;
+
+    }
 }

@@ -3,7 +3,8 @@
 This project is developed for the assignment of react router. If you want to run this project on your device then you should install npm by commanding npm install $npm-install
 
 ## Live Server Open
-If you want to visit my site then you can visit in the live server mode. Click here [https://partex-shop.netlify.app/home](https://partex-shop.netlify.app/home).
+If you want to visit my site then you can visit in the live server mode. Click here 
+## `Visit live server` [https://partex-shop.netlify.app/home](https://partex-shop.netlify.app/home).
 
 ## The Components That I Haved Used
 In this project i have used the components below-
