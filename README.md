@@ -1,8 +1,16 @@
 # This is My Project Named Partex Shop
 
-This project is developed for the assignment of react router. If you want to run this project on your device then you should install npm by commanding npm install [npm-install]
+This project is developed for the assignment of react router. If you want to run this project on your device then you should install npm by commanding npm install $npm-install
 
-## Available Scripts
+## Live Server Open
+If you want to visit my site then you can visit in the live server mode. Click here [http://localhost:3000](http://localhost:3000).
+
+## The Components That I Haved Used
+In this project i have used the components below-
+  * **Dashboard- where there are two charts**
+  * **Header- where all the navigation are placed** 
+  * **Home- The landing page is the home component**
+  * **Review- The customer's review is displayed here**
 
 In the project directory, you can run:
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { ResponsiveContainer, LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, BarChart, Bar } from 'recharts';
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, Legend, BarChart, Bar, ResponsiveContainer } from 'recharts';
+import './Dashboard.css'
 
 const Dashboard = () => {
     const [data, setData] = useState([]);
@@ -10,7 +11,7 @@ const Dashboard = () => {
     }, []);
     return (
         <div style={{ display: "flex", justifyContent: "center", marginTop: "50px" }}>
-            <LineChart style={{ marginRight: "50px" }} width={600} height={400} data={data} margin={{
+            <LineChart className='half-chart' style={{ marginRight: "50px" }} width={600} height={400} data={data} margin={{
                 right: 30
             }}>
                 <CartesianGrid stroke="#ccc" />
@@ -23,7 +24,8 @@ const Dashboard = () => {
                 <Line type="monotone" dataKey="investment" stroke="rgb(255, 0, 191)"></Line>
 
             </LineChart>
-            <BarChart
+
+            <BarChart className='half-chart'
                 width={650}
                 height={400}
                 data={data}>
@@ -37,8 +39,6 @@ const Dashboard = () => {
                 <Bar dataKey="investment" fill="rgb(255, 0, 191)" />
             </BarChart>
         </div>
-
-
     );
 };
 
